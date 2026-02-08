@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "types": [
+      "npm:vite/client",
+      "jsr:@nora/lib-dom-gecko",
+      "./@types/globalThis.d.ts"
+    ],
+    "jsx": "react-jsx",
+    "jsxImportSource": "solid-js"
+  },
+  "lint": {
+    "rules": {
+      "exclude": [
+        "no-namespace"
+      ]
+    }
+  },
+  "imports": {
+    "@typescript/lib-dom": "jsr:@nora/lib-dom-gecko",
+    "@types/gecko/": "../../../@types/gecko/",
+    "@nora/skin/": "../../packages/skin/",
+    "@nora/solid-xul": "../../packages/solid-xul/index.ts",
+    "@core/": "./core/",
+    "solid-xul": "../../packages/solid-xul/index.ts",
+    "solid-js": "npm:solid-js",
+    "solid-js/web": "npm:solid-js/web",
+    "solid-js/store": "npm:solid-js/store"
+  },
+  "jsximportsource": "solid-js"
+}

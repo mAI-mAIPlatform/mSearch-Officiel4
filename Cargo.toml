@@ -1,0 +1,9 @@
+[package]
+name = "noraneko"
+edition = "2021"
+
+[workspace]
+members = ["crates/nora-inject", "src/installers/stub-win64-installer"]
+
+[lib]
+path = "src/lib.rs"

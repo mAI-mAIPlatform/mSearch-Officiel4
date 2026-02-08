@@ -1,0 +1,15 @@
+/dist/
+**/_dist/
+**/node_modules/
+**/.turbo
+**/.env
+**/.DS_Store
+
+/*.tar.zst
+/*.tar.xz
+/*.zip
+/*.dmg
+
+.idea/
+
+target/

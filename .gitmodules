@@ -1,0 +1,3 @@
+[submodule "api-spec"]
+	path = src/apps/modules/src/modules/os-server/api-spec
+	url = https://github.com/Floorp-Projects/floorp-os-apis

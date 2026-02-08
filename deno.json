@@ -1,0 +1,45 @@
+{
+  "links": [
+    "@types/gecko/dom"
+  ],
+  "workspace": [
+    "./src/packages/*",
+    "./src/apps/*"
+  ],
+  "imports": {
+    "@std/encoding": "jsr:@std/encoding@^1.0.7",
+    "@std/fs": "jsr:@std/fs@^1.0.11",
+    "zod": "npm:zod",
+    "solid-styled-jsx": "npm:solid-styled-jsx",
+    "@swc/core": "npm:@swc/core@1.3.96"
+  },
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.asynciterable",
+      "deno.ns",
+      "ESNext"
+    ]
+  },
+  "lint": {
+    "rules": {
+      "exclude": [
+        "no-namespace"
+      ]
+    }
+  },
+  "unstable": [
+    "sloppy-imports"
+  ],
+  "tasks": {
+    "build": "deno run -A build.ts",
+    "dev": "deno run -A build.ts --run",
+    "clobber": "deno run -A build.ts --clobber",
+    "apply-patches": "deno run -A ./scripts/git-patches/git-patches-manager.ts --apply",
+    "dev-with-init-bin-git": "deno run -A ./build.ts --run-with-init-bin-git",
+    "init-bin-git": "deno run -A ./scripts/git-patches/git-patches-manager.ts --init",
+    "create-patches": "deno run -A ./scripts/git-patches/git-patches-manager.ts --create",
+    "installer-win64-stub-dev": "cd ./src/installers/stub-win64-installer && pnpm tauri dev",
+    "installer-win64-stub-build": "cd ./src/installers/stub-win64-installer && pnpm tauri build"
+  }
+}
