@@ -1,0 +1,39 @@
+{
+    "title": {
+        "default": "{{productName}} Anteckningar"
+    },
+    "notes": {
+        "welcome": "Välkommen till {{productName}} anteckningar!",
+        "welcomeContent": "Välkommen till {{productName}} Anteckningar! Så här använder du den.\n\n{{productName}} anteckningar är en anteckningsfunktion som kan synkroniseras mellan enheter. För att aktivera synkronisering måste du logga in på {{productName}} med ett Mozilla-konto.\n{{productName}} anteckningar lagras i {{productName}} och synkroniseras mellan enheter med hjälp av Firefox Sync. Firefox Sync krypterar innehållet i synkroniseringen med ditt lösenord för ditt Mozilla-konto, så att ingen kan veta dess innehåll.",
+        "new": "Ny anteckning",
+        "reorder": "Ändra ordning",
+        "done": "Klar",
+        "emptyTitle": "Namnlös",
+        "emptyContent": "Inget innehåll",
+        "noNotesSelected": "Välj en anteckning eller skapa en ny",
+        "createNew": "Skapa ny anteckning",
+        "titlePlaceholder": "Titel",
+        "loading": "Laddar anteckning...",
+        "delete": "Radera"
+    },
+    "editor": {
+        "bold": "Fetstil",
+        "italic": "Kursiv stil",
+        "underline": "Understrykning",
+        "strikethrough": "Genomstrykning",
+        "bulletList": "Punktlista",
+        "numberedList": "Numrerad lista",
+        "alignLeft": "Vänsterjustera",
+        "alignCenter": "Centrera",
+        "alignRight": "Högerjustera",
+        "quote": "Citat",
+        "heading1": "Rubrik 1",
+        "heading2": "Rubrik 2",
+        "heading3": "Rubrik 3"
+    },
+    "error": {
+        "loadFailed": "Misslyckades med att ladda anteckningsdata",
+        "saveFailed": "Misslyckades med att spara anteckningsdata",
+        "indexOutOfRange": "Index {{index}} är utanför intervallet"
+    }
+}

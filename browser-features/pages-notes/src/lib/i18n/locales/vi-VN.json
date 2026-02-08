@@ -1,0 +1,39 @@
+{
+    "title": {
+        "default": "Ghi chú {{productName}}"
+    },
+    "notes": {
+        "welcome": "Chào mừng tới Ghi chú {{productName}}!",
+        "welcomeContent": "Chào mừng bạn đến với Ghi chú {{productName}}! Cùng lướt qua cách sử dụng nào.\n\nGhi chú {{productName}} là một tính năng ghi chú có thể được đồng bộ hóa trên nhiều thiết bị. Để bật tính năng đồng bộ hóa, bạn cần đăng nhập vào {{productName}} bằng tài khoản Mozilla.\nGhi chú {{productName}} được lưu trữ trong {{productName}} và được đồng bộ hóa trên nhiều thiết bị bằng Firefox Sync. Firefox Sync mã hóa nội dung đồng bộ hóa bằng mật khẩu tài khoản Mozilla của bạn, do đó không ai có thể biết được nội dung đó.",
+        "new": "Ghi chú mới",
+        "reorder": "Sắp xếp",
+        "done": "Xong",
+        "emptyTitle": "Chưa có tên",
+        "emptyContent": "Chưa có nội dung",
+        "noNotesSelected": "Chọn một ghi chú hoặc tạo mới",
+        "createNew": "Tạo ghi chú mới",
+        "titlePlaceholder": "Tiêu đề",
+        "loading": "Đang tải ghi chú..",
+        "delete": "Xoá"
+    },
+    "editor": {
+        "bold": "In đậm",
+        "italic": "In nghiêng",
+        "underline": "Gạch chân",
+        "strikethrough": "Gạch qua",
+        "bulletList": "Danh sách",
+        "numberedList": "Danh sách thứ tự",
+        "alignLeft": "Căn trái",
+        "alignCenter": "Căn giữa",
+        "alignRight": "Căn phải",
+        "quote": "Trích dẫn",
+        "heading1": "Tiêu đề cấp 1",
+        "heading2": "Tiêu đề cấp 2",
+        "heading3": "Tiêu đề cấp 3"
+    },
+    "error": {
+        "loadFailed": "Tải dữ liệu ghi chú thất bại",
+        "saveFailed": "Lưu dữ liệu ghi chú thấy bị",
+        "indexOutOfRange": "Vị trí {{index}} không hợp lệ"
+    }
+}

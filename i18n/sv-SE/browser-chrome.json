@@ -1,0 +1,373 @@
+{
+  "undo-closed-tab": {
+    "label": "Ångra stängd flik",
+    "tooltiptext": "Öppna den senaste stängda fliken {{shortcut}}"
+  },
+  "floorpHubWarning": {
+    "message": "Floorp-specifika inställningar som panelens sidofält, arbetsytor och musgester hanteras i Floorp Hub.",
+    "openButton": "Öppna Floorp Hub"
+  },
+  "floorpStartWarning": {
+    "message": "För att ändra \"Hem\"-inställningen, inaktivera Floorp Start från Floorp Hub (about:hub#/features/design).",
+    "openButton": "Öppna Floorp Hub — Design"
+  },
+  "workspaces": {
+    "modal": {
+      "name": "Namn",
+      "name-placeholder": "Ange ett namn för denna arbetsyta",
+      "container": "Behållare",
+      "no-container": "Inga behållare",
+      "icon": "Ikon",
+      "edit-title": "Redigera arbetsyta",
+      "save": "Spara ändringar",
+      "cancel": "Avbryt"
+    },
+    "icons": {
+      "article": "Artikel",
+      "book": "Bok",
+      "briefcase": "Portfölj",
+      "cart": "Kundvagn",
+      "chat": "Chatt",
+      "chill": "Ta det lugnt",
+      "circle": "Cirkel",
+      "compass": "Kompass",
+      "code": "Kod",
+      "dollar": "Dollar",
+      "fence": "Staket",
+      "fingerprint": "Fingeravtryck",
+      "food": "Mat",
+      "fruit": "Frukt",
+      "game": "Spel",
+      "gear": "Inställningar",
+      "gift": "Gåva",
+      "key": "Nyckel",
+      "lightning": "Åska",
+      "network": "Nätverk",
+      "notes": "Anteckningar",
+      "paint": "Måla",
+      "photo": "Foto",
+      "pin": "Fäst",
+      "pet": "Djur",
+      "question": "Fråga",
+      "smartphone": "Smartphone",
+      "star": "Stjärna",
+      "tree": "Träd",
+      "vacation": "Semester",
+      "love": "Kärlek",
+      "moon": "Måne",
+      "music": "Musik",
+      "user": "Användare"
+    },
+    "service": {
+      "new-workspace": "Ny arbetsyta ({{count}})"
+    },
+    "context-menu": {
+      "move-up": "Flytta denna arbetsyta uppåt",
+      "move-down": "Flytta denna arbetsyta nedåt",
+      "delete": "Radera arbetsyta",
+      "manage": "Hantera arbetsyta",
+      "archive": "Arkivera arbetsytan"
+    },
+    "popup": {
+      "create-new": "Skapa ny arbetsyta...",
+      "manage": "Hantera arbetsytor",
+      "restore": "Visa arkiverade arbetsytor",
+      "restore-cancel": "Avsluta återställningsläge",
+      "restore-title": "Arkiverade arbetsytor",
+      "restore-loading": "Laddar arkiverade arbetsytor…",
+      "restore-empty": "Ingen arkiverade arbetsytor",
+      "restore-error": "Misslyckades med att ladda arkiverade arbetsytor",
+      "restore-tooltip": "Växla återställningsläge",
+      "restore-item": "Återställ \"{{name}}\"",
+      "restore-delete-tooltip": "Ta bort detta arkiv",
+      "restore-tab-count": "{{count}} flik",
+      "restore-tab-count_plural": "{{count}} flikar",
+      "restore-time-just-now": "Precis nu",
+      "restore-time-minutes": "{{minutes}} minut sedan",
+      "restore-time-minutes_plural": "{{minutes}} minuter sedan",
+      "restore-time-hours": "{{hours}} timme sedan",
+      "restore-time-hours_plural": "{{hours}} timmar sedan",
+      "restore-time-days": "{{days}} dag sedan",
+      "restore-time-days_plural": "{{days}} dagar sedan"
+    },
+    "menu": {
+      "moveTabToAnotherWorkspace": "Flytta flik till en annan arbetsyta",
+      "openLinkInWorkspace": "Öppna länk i en annan arbetsyta",
+      "noOtherWorkspace": "Inga andra arbetsytor tillgängliga"
+    },
+    "error": {
+      "invalidWorkspaceID": "Ej giltigt ID för arbetsytor (kanske är placeringen inte uppdaterad)"
+    }
+  },
+  "profile-manager-button": {
+    "label": "Profilhanteraren",
+    "tooltiptext": "Öppna profilhanteraren"
+  },
+  "statusbar": {
+    "toggle": "Statusfält{{mark}}"
+  },
+  "ssb": {
+    "menu": {
+      "webapps": "Webbappar",
+      "install-current": "Installera nuvarande sida som progressiv webbapp",
+      "open-installed": "Öppna installerade appar"
+    },
+    "page-action": {
+      "title": "Öppna program",
+      "install": "Installera program",
+      "open": "Öppna program",
+      "cancel": "Avbryt",
+      "site-icon": "Webbplatsikon"
+    }
+  },
+  "privateContainer": {
+    "openInPrivateContainer": "Öppna i privat behållare",
+    "reopenInPrivateContainer": "Återöppna i privat behållare",
+    "name": "Privat behållare"
+  },
+  "mouseGesture": {
+    "actions": {
+      "gecko-back": "Tillbaka",
+      "gecko-forward": "Framåt",
+      "gecko-reload": "Ladda om",
+      "gecko-close-tab": "Stäng flik",
+      "gecko-open-new-tab": "Ny flik",
+      "gecko-duplicate-tab": "Duplicera flik",
+      "gecko-reload-all-tabs": "Ladda om alla flikar",
+      "gecko-restore-last-tab": "Återöppna stängd flik",
+      "gecko-open-new-window": "Öppna nytt fönster",
+      "gecko-open-new-private-window": "Öppna nytt privat fönster",
+      "gecko-close-window": "Stäng fönster",
+      "gecko-restore-last-window": "Återställ senaste fönster",
+      "gecko-show-next-tab": "Visa nästa flik",
+      "gecko-show-previous-tab": "Visa föregående flik",
+      "gecko-show-all-tabs-panel": "Visa alla flikar panel",
+      "gecko-force-reload": "Tvinga omladdning",
+      "gecko-zoom-in": "Zooma In",
+      "gecko-zoom-out": "Zooma ut",
+      "gecko-reset-zoom": "Återställ Zoom",
+      "gecko-bookmark-this-page": "Bokmärk denna sida",
+      "gecko-open-home-page": "Öppna startsida",
+      "gecko-open-addons-manager": "Öppna tilläggshanterare",
+      "gecko-send-with-mail": "Skicka med e-post",
+      "gecko-save-page": "Spara sida",
+      "gecko-print-page": "Skriv ut sida",
+      "gecko-mute-current-tab": "Tysta aktuell flik",
+      "gecko-show-source-of-page": "Visa källkod för sida",
+      "gecko-show-page-info": "Visa sidinformation",
+      "floorp-rest-mode": "Aktivera viloläge",
+      "floorp-hide-user-interface": "Dölj gränssnitt",
+      "floorp-toggle-navigation-panel": "Växla navigeringspanel",
+      "gecko-stop": "Stopp",
+      "gecko-search-in-this-page": "Sök på denna sida",
+      "gecko-show-next-search-result": "Visa nästa sökresultat",
+      "gecko-show-previous-search-result": "Visa föregående sökresultat",
+      "gecko-search-the-web": "Sök på webben",
+      "gecko-open-migration-wizard": "Öppna migreringsguiden",
+      "gecko-quit-from-application": "Avsluta program",
+      "gecko-enter-into-customize-mode": "Gå till anpassningsläge",
+      "gecko-enter-into-offline-mode": "Gå in i offline-läge",
+      "gecko-open-screen-capture": "Öppna skärmbildsverktyget",
+      "floorp-show-pip": "Visa bild-i-bild",
+      "gecko-open-bookmark-add-tool": "Öppna bokmärke lägga till verktyget",
+      "gecko-open-bookmarks-manager": "Öppna bokmärkeshanteraren",
+      "gecko-toggle-bookmark-toolbar": "Växla bokmärkesfältet",
+      "gecko-open-general-preferences": "Öppna allmänna inställningar",
+      "gecko-open-privacy-preferences": "Öppna sekretessinställningar",
+      "gecko-open-workspaces-preferences": "Öppna inställningar för arbetsytor",
+      "gecko-open-containers-preferences": "Öppna inställningar för behållare",
+      "gecko-open-search-preferences": "Öppna sökinställningar",
+      "gecko-open-sync-preferences": "Öppna synkroniseringsinställningar",
+      "gecko-open-task-manager": "Öppna aktivitetshanteraren",
+      "gecko-forget-history": "Glöm historik",
+      "gecko-quick-forget-history": "Snabb glömma historik",
+      "gecko-clear-recent-history": "Rensa senaste historik",
+      "gecko-restore-last-session": "Återställ senaste session",
+      "gecko-search-history": "Sökhistorik",
+      "gecko-manage-history": "Hantera historik",
+      "gecko-open-downloads": "Öppna Hämtningar",
+      "gecko-show-bookmark-sidebar": "Visa bokmärkessidofält",
+      "gecko-show-history-sidebar": "Visa historik sidofält",
+      "gecko-show-synced-tabs-sidebar": "Visa sidofältet för synkroniserade flikar",
+      "gecko-reverse-sidebar": "Omvänd sidofältets position",
+      "gecko-hide-sidebar": "Dölj sidofält",
+      "gecko-toggle-sidebar": "Växla sidofält",
+      "gecko-scroll-up": "Scrolla uppåt",
+      "gecko-scroll-down": "Scrolla ner",
+      "gecko-scroll-right": "Scrolla höger",
+      "gecko-scroll-left": "Scrolla vänster",
+      "gecko-scroll-to-top": "Scrolla till toppen",
+      "gecko-scroll-to-bottom": "Scrolla till botten",
+      "gecko-workspace-next": "Växla till nästa arbetsyta",
+      "gecko-workspace-previous": "Växla till föregående arbetsyta"
+    },
+    "descriptions": {
+      "gecko-back": "Navigera tillbaka till föregående sida",
+      "gecko-forward": "Navigera framåt till nästa sida",
+      "gecko-reload": "Ladda om den aktuella sidan",
+      "gecko-close-tab": "Stäng aktuell flik",
+      "gecko-open-new-tab": "Öppna en ny flik",
+      "gecko-duplicate-tab": "Duplicera den aktuella fliken",
+      "gecko-reload-all-tabs": "Ladda om alla flikar",
+      "gecko-restore-last-tab": "Öppna den senaste stängda fliken"
+    }
+  },
+  "qrCode": {
+    "pageAction": "Generera QR-kod",
+    "modalTitle": "QR-kodgenerator",
+    "loading": "Genererar QR-kod...",
+    "copyButton": "Kopiera bild",
+    "downloadButton": "Ladda ner",
+    "closeButton": "Stäng",
+    "copySuccess": "QR-kod har kopierats till urklipp!",
+    "copyError": "Misslyckades med att kopiera QR-kod",
+    "generateError": "Misslyckades med att generera QR-kod"
+  },
+  "qrcode-generate-page-action": "Generera QR-kod för den här sidan",
+  "qrcode-generate-page-action-title": "QR-kodgenerator",
+  "panelSidebar": {
+    "modal": {
+      "type": "Paneltyp",
+      "typeOptions": {
+        "web": "Webbsida",
+        "sidebar-tool": "Sidofält för verktyg",
+        "extension": "Sidofält för tillägg",
+        "builtin": "Inbyggda sidor (nedladdningar, bokmärken, historik)"
+      },
+      "width": "Panelbredd",
+      "url": "Webbsida URL",
+      "container": "Behållare",
+      "noContainer": "Inga behållare",
+      "userAgent": "Använd mobil användaragent",
+      "extension": "Visa förlängning",
+      "sideBarTool": "Visa sidofält verktyg",
+      "title": "Lägg till panel",
+      "add": "Lägg till",
+      "cancel": "Avbryt"
+    },
+    "contextMenu": {
+      "unload": "Avlägsna denna webbpanel",
+      "mute": "Tysta/avtysta denna webbpanel",
+      "changeZoom": "Ändra zoomnivå",
+      "zoomIn": "Zooma in",
+      "zoomOut": "Zooma ut",
+      "resetZoom": "Återställ zoom",
+      "changeUA": "Byt användaragent till mobil/datorversion på denna webbpanel",
+      "delete": "Ta bort denna panel"
+    }
+  },
+  "chrome_css": {
+    "menu": "Stil",
+    "rebuild": "Bygg om stilmallar",
+    "create": "Skapa ny stilmall",
+    "open_folder": "Öppna stilmallsmapp",
+    "edit_user_chrome": "Redigera userChrome.css",
+    "edit_user_content": "Redigera userContent.css",
+    "rebuild_complete": "Stilmallar ombyggda",
+    "editor_path_not_found": "Sökväg för redigerare hittades inte",
+    "set_pref_description": "Vänligen ange sökvägen för redigeraren",
+    "please_enter_filename": "Vänligen ange ett filnamn",
+    "file_created": "Fil skapad",
+    "file_created_successfully": "Filen skapades framgångsrikt",
+    "open_file_in_editor": "Öppna fil i redigerare?",
+    "error_title": "Fel",
+    "folder_open_failed": "Misslyckades med att öppna CSS-mapp",
+    "edit_failed": "Misslyckades med att redigera fil"
+  },
+  "reboot": {
+    "menu": {
+      "title": "Starta om",
+      "normal-restart": "Starta om",
+      "restart-cache-clear": "Starta om med cache rensning",
+      "restart-safe-mode": "Starta om i felsäkert läge",
+      "restart-profile-manager": "Starta om med profilhanterare"
+    }
+  },
+  "nr-webscraper": {
+    "panelTitle": "{{productName}} är i drift",
+    "panelDefaultMessage": "{{action}} pågår...",
+    "panelProgressSummary": "Påverkar {{count}} element(er)",
+    "formSummary": "Fyll i formulär: {{count}} fält(er)",
+    "formFieldProgress": "Fält {{current}}/{{total}}: \"{{value}}\"",
+    "inputValueSet": "Ställ in ingångsvärde: \"{{value}}\"",
+    "clickElementWithText": "Klicka {{tag}}: \"{{text}}\"",
+    "clickElementNoText": "Klicka på {{tag}} element",
+    "inspectPageHtml": "Hämta HTML-kod för hela sidan",
+    "inspectGetElement": "Hämtat element: {{selector}}",
+    "inspectGetElements": "{{count}} element(en) matchade: {{selector}}",
+    "inspectGetElementByText": "Hämtat element som matchar text: \"{{text}}\"",
+    "inspectGetElementText": "Hämtade text från: {{selector}}",
+    "inspectGetValue": "Hämtade värde: {{selector}}",
+    "submitForm": "Skickar formulär: {{name}}",
+    "actionLabelHighlight": "Höjdpunkt",
+    "actionLabelInspect": "Inspektera",
+    "actionLabelFill": "Fyll",
+    "actionLabelInput": "Indata",
+    "actionLabelClick": "Klick",
+    "actionLabelSubmit": "Skicka"
+  },
+  "externalBrowser": {
+    "menu": {
+      "openTabIn": "Öppna flik i extern webbläsare",
+      "openLinkIn": "Öppna länk i extern webbläsare",
+      "defaultBrowser": "Systemets standardwebbläsare",
+      "noBrowsers": "Inga externa webbläsare upptäcktes",
+      "noValidUrl": "Ingen giltig URL att öppna"
+    }
+  },
+  "chromeWebStore": {
+    "button": {
+      "addToFloorp": "Lägg till i Floorp",
+      "installing": "Installerar...",
+      "success": "Tillagd!",
+      "error": "Fel uppstod",
+      "installed": "Installerad"
+    },
+    "error": {
+      "title": "Installationsfel",
+      "compatibilityNote": "Det här tillägget kanske inte är kompatibelt med Firefox/Floorp.",
+      "alreadyInstalled": "Detta tillägg är redan installerat ({{name}})",
+      "downloadFailed": "Misslyckades med att ladda ner CRX fil",
+      "conversionFailed": "Misslyckades med att konvertera tillägg: {{error}}",
+      "conversionFailedGeneric": "Misslyckades med att konvertera CRX till XPI",
+      "installError": "Installationsfel: {{error}}",
+      "installFailed": "Installationen misslyckades",
+      "noData": "Inga installationsdata tillhandahålls",
+      "addonManagerUnavailable": "AddonManager är inte tillgängligt",
+      "noBrowserWindow": "Kunde inte hitta webbläsarfönster för installation",
+      "createInstallFailed": "Misslyckades med att skapa installationsobjekt",
+      "cancelledByUser": "Installationen avbröts av användaren",
+      "downloadCancelled": "Nedladdningen avbruten",
+      "timeout": "Installationen tog för lång tid",
+      "xpiInstallError": "XPI-installationsfel: {{error}}",
+      "errorWithCode": "Installationsfel (kod: {{code}})",
+      "experimentDisabled": "Denna funktion är för närvarande inte tillgänglig"
+    },
+    "installErrors": {
+      "downloadFailed": "Nedladdning misslyckad",
+      "signatureVerifyFailed": "Misslyckades med att verifiera tilläggssignatur",
+      "corruptOrIncompatible": "Tillägget är korrupt eller inkompatibelt",
+      "incompatible": "Detta tillägg är inte kompatibelt med Floorp",
+      "blocked": "Detta tillägg är blockerat",
+      "timeout": "Tilläggsinstallationen har gått ut",
+      "installFailed": "Installation av tillägg misslyckades",
+      "parseFailed": "Misslyckades med att tolka tillägg",
+      "invalidFile": "Ogiltig tilläggsfil",
+      "networkError": "Ett nätverksfel inträffade"
+    }
+  },
+  "addons": {
+    "notification": {
+      "chromeExtensionMessage": "Vill du lägga till Chrome-tillägget \"{{name}}\"? Det här tillägget har konverterats från Chrome Web Store.",
+      "chromeExtensionPrompt": "Vill du lägga till Chrome-tillägget \"{{name}}\"?",
+      "defaultExtensionName": "detta tillägg",
+      "chromeBadge": "[Chrome]",
+      "compatibilityWarning": "Detta Chrome-tillägg har konverterats till Firefox-kompatibelt format. Vissa funktioner kanske inte fungerar korrekt."
+    }
+  },
+  "hub": {
+    "menu": {
+      "title": "Floorp Hub"
+    }
+  }
+}
